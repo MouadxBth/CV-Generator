@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="A sucky website">
+        <meta name="author" content="Mouad">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>First Website</title>
+        <link rel="icon" href="../resources/m-favicon.png">
+        <link rel="stylesheet" href="../css/index.css">
+        <script defer src="/src/index.js"></script>
+        <noscript>Yo bro, enable that damn js, how tf u b livin?</noscript>
+
+        <base href="../html/" target="_self">
+    </head>
+
+    <body>
+        <h1 class="center" title="This is a simple heading">Welcome to Mouad's Website</h1>
+
+        <div class="links">
+            <a href="paragraphs.html">Paragraphs</a>
+            <a href="../html/headings.html">Headings</a><br>
+            <a href="../html/tables.html">Tables</a><br>
+        </div>
+
+        <div class="center separated bordered">
+            <p id="text">This is a custom text</p>
+        </div>
+
+        <div class="center separated">
+            <button class="button" type="button" data-inline="true" onclick="testFunction()">First</button>
+            <button class="button" type="button" data-inline="true" onclick="otherFunction()">Second</button>
+        </div>
+        <div class="center">
+            <label for="firstNames">Enter your first name:</label>
+            <input id="firstName" type="text" name="firstNames">
+            <button id="submitBtn" type="submit" onclick="submitBtn()">Submit</button>
+        </div>
+    </body>
+
+    <footer>
+        <address class="center separated">
+            Written by: <b title="A Moroccan developer">Mouad</b><br>
+            Find him at: <br>
+            <a href="https://github.com/MouadxBth" target="_blank">
+                <img title="Github account" id="github" src="../resources/5.gif" alt="Github icon" width="50" height="50">
+            </a>
+            <br>
+            <a href="mailto:mouad.bouthaich@outlook.com">Send Mail</a>
+        </address>
+    </footer>
+</html>

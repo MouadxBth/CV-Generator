@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    font-size: 125%;
+    color: white;
+}
+
+.bordered {
+    border: 1px solid white;
+}
+
+.separated {
+    margin: 1%;
+    padding: 1%;
+}
+
+.button {
+    border-radius: 25px;
+    width: 5%;
+    height: 25px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a:link, .links a:visited {
+    color: white;
+    font-size: 125%;
+    margin: 1%;
+    height: 1%;
+}
+
+.frame {
+    width: 50%;
+    height: 50%;
+}
